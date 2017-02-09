@@ -1,0 +1,121 @@
+/*
+** The style here is based on the Nexus5 phone,
+** defined by the project rubrics as the smallest device
+*/
+
+/*
+** GENERAL STYLES
+*/
+html {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, footer {
+    margin: 0px;
+}
+
+#container {
+    color: #2d3c49;
+    font: 1em/1.4 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+/*
+** HEADER STYLES
+*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 0.4em 0;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+}
+.logo img
+{
+    padding-top: 0.4em;
+    width: 90px;
+}
+
+.artist {
+    width: 60%;
+    height: 100%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+h1 {
+    padding-top: 0.3em;
+    font-size: 1.8em;
+    line-height: 1.1em;
+}
+
+hr {
+    height: 3px;
+    background:#7d97ad;
+    border: 0;
+}
+
+/*
+** FIRST SECTION STYLES
+*/
+
+.this-month-photo img {
+    max-width: 100%;
+}
+
+.this-month-photo {
+    padding: 1em 0;
+}
+
+/*
+** SECOND SECTION STYLES
+*/
+
+.other-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding-left: 10px;
+    padding-bottom: 4px;
+    color: #7d97ad;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.photo-title-link {
+    text-align: center;
+}
+
+.photo-title-link p {
+    padding-bottom: 0.6em;
+    font-size: 0.8em;
+}
+
+/*
+** FOOTER STYLES
+*/
+
+footer {
+    margin-top: 0.8em;
+    background-color: #2d3c49;
+    color: #ccc;
+    padding: 2em 1em;
+    text-align: right;
+    font-size: 0.7em;
+}
+
+footer a:link, footer a:hover, footer a:visited, footer a:active {
+    color: #ccc;
+    text-decoration: none;
+}
